@@ -1,0 +1,18 @@
+﻿Radio Meta Stream Diagnostics — v1.2
+====================================
+
+- Prints each non-empty ICY StreamTitle prominently while the capture runs.
+- Colors likely station-break/status messages amber, while ordinary detected
+  titles are shown in green for easier visual scanning.
+- Creates 04-title-highlights.html with timestamps, source, ICY block number,
+  and a cautious title-format classification for ICY and FFprobe candidates.
+- Does not auto-block titles: short titles such as “Please” remain visible for review.
+- Reports empty ICY metadata blocks and preserves the existing full capture details.
+- Omits ICY StreamUrl values, scrubs all HTTP(S) URLs and common token/key/password
+  patterns from saved reports, and sanitizes titles before console/HTML display.
+- Does not copy old Results folders into the release archive; every run starts clean.
+- Keeps the same read-only stream request behavior, capture duration options,
+  launcher and FFprobe capture approach.
+
+The output report is a diagnostic hint, not proof that a title is a real song.
+No Emby or Radio Meta playback settings are modified by this tool.
