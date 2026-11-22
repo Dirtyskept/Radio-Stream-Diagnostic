@@ -23,4 +23,7 @@ Saved reports remove links, common key/token/password values and Authorization h
 - The tool asks for the link directly, like any player. A stream that needs Emby's own login or cookies may fail here even if Emby plays it.
 - FFprobe is optional. A copy is included under `tools/`, and the script also looks next to itself, on PATH and in Emby's folder. Without it, the ICY capture still runs.
 
+## Licence of the included ffprobe
+`tools/ffprobe.exe` is FFmpeg 5.1 as built by Emby, licensed under the GNU GPL version 3. See [FFPROBE-NOTICE.txt](RadioMeta-Stream-Diagnostics/tools/FFPROBE-NOTICE.txt) for its version and where to get its source code, and [FFPROBE-LICENSE-GPLv3.txt](RadioMeta-Stream-Diagnostics/tools/FFPROBE-LICENSE-GPLv3.txt) for the licence.
+
 Requires Windows PowerShell 5.1 (included with Windows). Full details: [README.txt](RadioMeta-Stream-Diagnostics/README.txt) · [CHANGES.txt](RadioMeta-Stream-Diagnostics/CHANGES.txt)
