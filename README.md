@@ -27,3 +27,6 @@ Saved reports remove links, common key/token/password values and Authorization h
 `tools/ffprobe.exe` is FFmpeg 5.1 as built by Emby, licensed under the GNU GPL version 3. See [FFPROBE-NOTICE.txt](RadioMeta-Stream-Diagnostics/tools/FFPROBE-NOTICE.txt) for its version and where to get its source code, and [FFPROBE-LICENSE-GPLv3.txt](RadioMeta-Stream-Diagnostics/tools/FFPROBE-LICENSE-GPLv3.txt) for the licence.
 
 Requires Windows PowerShell 5.1 (included with Windows). Full details: [README.txt](RadioMeta-Stream-Diagnostics/README.txt) · [CHANGES.txt](RadioMeta-Stream-Diagnostics/CHANGES.txt)
+
+## Licence
+Copyright (C) 2026 Dirtyskept. The diagnostic scripts are free software under the [GNU General Public License, version 3](LICENSE): you may use, change and share them, and a changed version you share must also be under GPL-3.0. They come with no warranty. The included `ffprobe.exe` is a separate program, also under GPL-3.0; see its notice above.
